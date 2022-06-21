@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "my-project",
-    "slug": "my-project",
+    "owner": "occidev",
+    "name": "mobileApp",
+    "slug": "mobileApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.occidev31.ticketless"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.occidev31.ticketless"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -1,0 +1,138 @@
+import { palette } from '../../theme/palette';
+import { ScanSvg } from '../Svg';
+import { MenuAction, AnimType } from './Menu';
+
+export const actions: MenuAction[] = [
+  {
+    label: 'Mes Tickets',
+    color: palette.white,
+    fontFamily: 'ProxyMonoBeta-Regular',
+    typo: {
+      lineHeight: 32.7,
+      size: 26.42,
+    },
+    backgroundColor: palette.black,
+    animation: '1' as AnimType,
+    route: 'screen 1',
+    onPress: () => console.log('item 1'),
+  },
+  {
+    label: 'Scan',
+    color: palette.white,
+    fontFamily: 'PxGrotesk-Regular',
+    typo: {
+      lineHeight: 47,
+      size: 49.56,
+    },
+    backgroundColor: palette.blue,
+    icon: <ScanSvg />,
+    animation: '2' as AnimType,
+    route: 'screen 2',
+    onPress: () => console.log('item 2'),
+  },
+  {
+    label: ' AI analyse ',
+    color: palette.white,
+    fontFamily: 'RacingSansOne-Regular',
+    typo: {
+      lineHeight: 45.8,
+      size: 49.56,
+    },
+    backgroundColor: palette.littleRed,
+    animation: '3' as AnimType,
+    route: 'screen 3',
+    onPress: () => console.log('item 3'),
+  },
+  {
+    label: 'Contact',
+    color: palette.white,
+    fontFamily: 'CubeCavern-Regular',
+    typo: {
+      lineHeight: 45.8,
+      size: 49.56,
+    },
+    backgroundColor: palette.greenGrass,
+    animation: '3' as AnimType,
+    route: 'screen 4',
+    onPress: () => console.log('item 4'),
+  },
+  {
+    label: 'Mes dépenses',
+    color: palette.white,
+    fontFamily: 'DegularText-Semibold',
+    typo: {
+      lineHeight: 38.8,
+      size: 35.56,
+    },
+    backgroundColor: palette.purple,
+    animation: '3' as AnimType,
+    route: 'screen 5',
+    onPress: () => console.log('item 5'),
+  },
+  {
+    label: 'Mes Tickets',
+    color: palette.white,
+    fontFamily: 'ProxyMonoBeta-Regular',
+    typo: {
+      lineHeight: 32.7,
+      size: 26.42,
+    },
+    backgroundColor: palette.black,
+    animation: '1' as AnimType,
+    route: 'screen 6',
+    onPress: () => console.log('item 6'),
+  },
+  {
+    label: 'Scan',
+    color: palette.white,
+    fontFamily: 'PxGrotesk-Regular',
+    typo: {
+      lineHeight: 47,
+      size: 49.56,
+    },
+    backgroundColor: palette.blue,
+    icon: <ScanSvg />,
+    animation: '2' as AnimType,
+    route: 'screen 7',
+    onPress: () => console.log('item 7'),
+  },
+  {
+    label: ' AI analyse ',
+    color: palette.white,
+    fontFamily: 'RacingSansOne-Regular',
+    typo: {
+      lineHeight: 45.8,
+      size: 49.56,
+    },
+    backgroundColor: palette.littleRed,
+    animation: '3' as AnimType,
+    route: 'screen 8',
+    onPress: () => console.log('item 8'),
+  },
+  {
+    label: 'Contact',
+    color: palette.white,
+    fontFamily: 'CubeCavern-Regular',
+    typo: {
+      lineHeight: 45.8,
+      size: 49.56,
+    },
+    backgroundColor: palette.greenGrass,
+    animation: '3' as AnimType,
+    route: 'screen 9',
+    onPress: () => console.log('item 9'),
+  },
+  {
+    label: 'Mes dépenses',
+    color: palette.white,
+    fontFamily: 'DegularText-Semibold',
+    typo: {
+      lineHeight: 38.8,
+      size: 35.56,
+    },
+    backgroundColor: palette.purple,
+    animation: '3' as AnimType,
+    route: 'screen 10',
+    onPress: () => console.log('item 10'),
+  },
+];
